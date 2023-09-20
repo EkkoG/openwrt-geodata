@@ -60,7 +60,7 @@ jobs:
       - uses: EkkoG/latest-file-checker@main
         env:
           COMMIT_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          MAKEFILE: Loyalsoldier-geodata/Makefile
+          MAKEFILE: v2ray-geodata/Makefile
           REPO: v2fly/geoip
           VERSION_FILED: GEOIP_VER
           HASH_FILED: GEOIP_FILE_HASH

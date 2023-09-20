@@ -43,6 +43,7 @@ jobs:
           VERSION_FILED: GEOIP_VER
           HASH_FILED: GEOIP_FILE_HASH
           SOURCE_URL: https://github.com/{{repo}}/releases/download/{{version}}/geoip.dat
+          FROM_TAG: 1
           BRANCH: main
 
       - uses: EkkoG/latest-file-checker@main
@@ -53,6 +54,7 @@ jobs:
           VERSION_FILED: GEOSITE_VER
           HASH_FILED: GEOSITE_FILE_HASH
           SOURCE_URL: https://github.com/{{repo}}/releases/download/{{version}}/geosite.dat
+          FROM_TAG: 1
           BRANCH: main
 
       - uses: EkkoG/latest-file-checker@main
@@ -63,6 +65,7 @@ jobs:
           VERSION_FILED: GEOIP_VER
           HASH_FILED: GEOIP_FILE_HASH
           SOURCE_URL: https://github.com/{{repo}}/releases/download/{{version}}/geoip.dat
+          FROM_TAG: 1
           BRANCH: main
 
       - uses: EkkoG/latest-file-checker@main
@@ -73,4 +76,5 @@ jobs:
           VERSION_FILED: GEOSITE_VER
           HASH_FILED: GEOSITE_FILE_HASH
           SOURCE_URL: https://github.com/{{repo}}/releases/download/{{version}}/dlc.dat
+          FROM_TAG: 1
           BRANCH: main

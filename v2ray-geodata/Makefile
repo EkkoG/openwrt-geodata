@@ -43,7 +43,7 @@ endef
 define Package/v2ray-geoip
   $(call Package/v2ray-geodata/template)
   TITLE:=GeoIP List for V2Ray
-  VERSION:=$(GEOIP_VER)-$(PKG_RELEASE)
+  VERSION:=$(GEOIP_VER)-$(PKG_RELEASE)00
   LICENSE:=CC-BY-SA-4.0
 endef
 

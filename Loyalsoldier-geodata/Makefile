@@ -12,8 +12,8 @@ PKG_MAINTAINER:=Tianling Shen <cnsztl@immortalwrt.org>
 
 include $(INCLUDE_DIR)/package.mk
 
-GEOIP_VER:=202605282309
-GEOIP_FILE_HASH:=2cda9118ee9995d5dc15d36661a9dc30534a6272ba6882c0c159f7ce08f0288b
+GEOIP_VER:=202606042304
+GEOIP_FILE_HASH:=2632ff7f228066927aeffacef347488d2d922274d13897b20dca2a229044879d
 GEOIP_FILE:=geoip.dat
 define Download/geoip
   URL:=https://github.com/Loyalsoldier/v2ray-rules-dat/releases/download/$(GEOIP_VER)/
